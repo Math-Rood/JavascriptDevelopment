@@ -26,3 +26,51 @@ let maxNum = Math.max(1, 5, 7, 2);
 let minNum = Math.min(9, 0, 3);
 console.log(maxNum);
 console.log(minNum);
+
+//Estrutura de if
+let a = 5;
+let b = 3;
+
+if(a+b == 3){
+    console.log('Soma é igual a 3')
+} else if (a+b == 4){
+    console.log('Soma é igual a 4')
+}else {
+    console.log('Soma é igual a 7') 
+}
+
+//As estruturas de repetição podem usar break para encerrar o loop antes do tempo ou continue para nao perder um laço especifico
+//Estrutura de while
+let count = 10;
+while(count > 0){
+    console.log('O contador foi decrescido em 1');
+    count = count - 1;
+    console.log(count);
+}
+
+//Estrutura dowhile
+count = 10;
+do{
+    console.log('O contador foi decrescido em 1');
+    count = count - 1;
+    console.log(count);
+}while(count > 0);
+
+//Estrutura de for
+for(let i = 0; i < 10; i++){
+    console.log(i);
+}
+
+//Estura de switch/case
+name = 'Matheus';
+switch(name){
+    case 'Matheus':
+        console.log('Seu nome é Matheus');
+        break;
+    case 'Joao':
+        console.log('Seu nome é Joao');
+        break;
+    default:
+        console.log('O nome nao foi encontrado');
+        break;
+}
